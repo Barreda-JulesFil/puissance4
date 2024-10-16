@@ -11,7 +11,8 @@ void effacerEcran() {
 #ifdef _WIN32
     system("cls");  // Effacement de l'écran sous Windows (cmd.exe)
 #else
-    cout << "\033[2J\033[H";  // Séquences ANSI pour Linux/Mac ou terminaux compatibles
+    //cout << "\033[2J\033[H";  // Séquences ANSI pour Linux/Mac ou terminaux compatibles
+    system("clear");  // Effacement de l'écran sous Linux
 #endif
 }
 
