@@ -1,2 +1,2 @@
 # puissance4
-Jeu de puissance 4 en console
+Programme console : Jeu de puissance 4 basique
